@@ -10,4 +10,5 @@ Pod::Spec.new do |spec|
   spec.requires_arc = true
   spec.source = { git: "https://github.com/akpw/AKPFlowLayout.git", tag: "v#{spec.version}", submodules: true }
   spec.source_files = "AKPFlowLayout/**/*.{h,swift}"
+  spec.swift_version = '5.0'
 end
